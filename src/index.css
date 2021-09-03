@@ -132,3 +132,31 @@ p {
     line-height: 1;
   }
 }
+
+/*  global classes */
+
+/* section */
+.section {
+  width: 10vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+/*
+=============== 
+Markdown
+===============
+*/
+.markdown {
+  padding: 4rem;
+  display: grid;
+  row-gap: 4rem;
+}
+.input {
+  border-color: transparent;
+  border-radius: var(--radius);
+  font-size: 1.2rem;
+  line-height: 2;
+  box-shadow: var(--dark-shadow);
+  min-height: 30vh;
+}
